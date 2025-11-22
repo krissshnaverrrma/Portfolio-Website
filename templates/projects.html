@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Projects | Krishna Verma{% endblock %}
+{% block content %}
+<section id="projects-page" class="intro-section">
+    <div class="container">
+        <div class="intro-grid-simple">
+            <div class="intro-left" style="width: 100%; max-width: 800px; margin: 0 auto; text-align: center;">
+                <div class="intro-title-line">
+                    <h1>My Projects</h1>
+                    <div class="horizontal-line"></div>
+                </div>
+                <p class="main-description">
+                    Welcome to my gallery of work. These projects demonstrate my expertise in full-stack development, ranging from simple command-line tools to complex web applications. Click on any project below to see details and code.
+                </p>
+                <div class="projects-placeholder" style="padding: 40px; border: 1px dashed #444; margin-top: 30px;">
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+        <img src="{{ url_for('static', filename='images/task-management-app-screenshot.jpg') }}" alt="Task Management App Screenshot" class="project-thumbnail">
+    </div>
+        <h3 class="card-title">Task Management App</h3>
+            <p class="card-focus">Full-Stack Productivity Tool & Logic</p>
+            <p class="card-skills">Skill Focus: Database Schema Design, CRUD Logic, State Management</p>
+             <a href="https://github.com/krissshnaverrrma/Task-Management-APP" target="_blank" class="card-link">Task-Management-APP</a>
+     </div>
+    <div class="project-card">
+        <div class="project-image-wrapper">
+        <img src="{{ url_for('static', filename='images/lazy-coder-website-screenshot.jpg') }}" alt="Lazy Coder Website Screenshot" class="project-thumbnail">
+    </div>
+    <h3 class="card-title">Lazy Coder Website</h3>
+    <p class="card-focus">Responsive Design & User Experience (UX)</p>
+    <p class="card-skills">Skill Focus: Information Architecture, Front-End Data Presentation</p>
+    <a href="https://github.com/krissshnaverrrma/Lazy-Coder-Website" target="_blank" class="card-link">
+        Lazy-Coder-Website</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

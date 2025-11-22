@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}Introduction | Krishna Verma{% endblock %}
+
+{% block content %}
+<section id="introduction" class="intro-section">
+    <div class="container">
+        <div class="intro-grid">
+            <div class="intro-left">
+                <div class="intro-title-line">
+                    <h1>Introduction</h1>
+                    <div class="horizontal-line"></div>
+                </div>
+               <h2>Hi, I'm Krishna Verma</h2>
+                <p class="main-description">
+                I am an enthusiastic Junior at Sanskar College of Engineering and Technology, majoring in Computer Science and Engineering. My studies are focused on Web Development
+                I'm driven by the desire to innovate sustainable tech solutions.
+                <h3>Academics and Projects:-</h3>
+                    <p class="main-description">
+                    I have created my projects in the innovative and seamless way.</p>
+                <h3>My Projects:-</h3>
+                    <p class="main-description">
+                    <p><a href="https://github.com/krissshnaverrrma/Task-Management-APP" target="_blank" class="card-link">Task-Management-APP</a></p>
+                    <p><a href="https://github.com/krissshnaverrrma/Lazy-Coder-Website" target="_blank" class="card-link">
+                    Lazy-Coder-Website</a></p>
+                    <p class="main-description"></p>
+                    </p>
+                    <h3>Looking Forward:-</h3>
+                        <p class="main-description">
+                        I am currently seeking  opportunities in Summer Internships in Data Science where I can contribute my analytical mindset and collaborative spirit.
+                        I believe in continuous learning and leveraging my academic background to tackle real-world challenges.
+                        I’d be happy to chat about my portfolio or ongoing projects!
+                </p>
+                <div class="sub-sections">
+                    <div class="sub-section-card">
+                        <h3>About Me</h3>
+                        <p>
+                            My academic path at Sanskar College of Engineering and Technology is centered on mastering Computer Science and Engineering. While my current studies heavily involve Web Development, I am primarily driven by a deep-seated interest in data-driven innovation.
+                        </p>
+                    </div>
+                    <div class="sub-section-card">
+                        <h3>About Portfolio</h3>
+                        <p>
+                        This portfolio serves as a showcase of my technical evolution and practical application of computer science principles. Here, you’ll find a mix of academic projects and personal coding challenges, demonstrating my foundational expertise in Python and C++.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="intro-right">
+                <img src="{{ url_for('static', filename='images/intro-image.jpg') }}" alt="Introduction Image" class="intro-image">
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
