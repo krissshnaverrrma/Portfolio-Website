@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,30 +10,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     {% block head_content %}{% endblock %}
 </head>
+
 <body>
 
     <header>
         <div class="container">
             <div class="logo-container">
                 <a href="{{ url_for('home') }}" class="logo-link">
-        <div class="atomic-background" id="atomicBackground">
-            </div>
-        <h1 class="logo">Krishna Verma</h1>
-    </a>
-                 <div class="atomic-background" id="atomicBackground">
+                    <div class="atomic-background" id="atomicBackground">
+                    </div>
+                    <h1 class="logo">Krishna Verma</h1>
+                </a>
+                <div class="atomic-background" id="atomicBackground">
                     <div class="electron-path path-1"></div>
                     <div class="electron-path path-2"></div>
                     <div class="electron-path path-3"></div>
                     <div class="nucleus"></div>
                 </div>
-                <h1 class="logo"></h1> </div>
+                <h1 class="logo"></h1>
+            </div>
             <nav>
                 <ul>
                     <li><a href="{{ url_for('home') }}"><i class="fa-solid fa-house"></i>Home</a></li>
-                    <li><a href="{{ url_for('introduction_page') }}"><i class="fa-solid fa-address-card"></i>Introduction</a></li>
-                     <li><a href="{{ url_for('projects_page') }}"><i class="fa-solid fa-diagram-project"></i>My Projects</a></li>
+                    <li><a href="{{ url_for('introduction_page') }}"><i
+                                class="fa-solid fa-address-card"></i>Introduction</a></li>
+                    <li><a href="{{ url_for('projects_page') }}"><i class="fa-solid fa-diagram-project"></i>My
+                            Projects</a></li>
                     <li><a href="{{ url_for('about_page') }}"><i class="fa-solid fa-circle-user"></i>About Me</a></li>
-                    <li><a href="{{ url_for('contact_page') }}"><i class="fa-solid fa-address-book"></i>Contact ME</a></li>
+                    <li><a href="{{ url_for('contact_page') }}"><i class="fa-solid fa-address-book"></i>Contact ME</a>
+                    </li>
                 </ul>
                 <div class="hamburger-menu">
                     <i class="fas fa-bars"></i>
@@ -51,13 +57,13 @@
                     <i class="fa-brands fa-square-github"></i><span>GitHub</span>
                 </a>
                 <a href="https://www.linkedin.com/in/krishna-verma-43aa85315/" target="_blank" title="LinkedIn">
-                  <span>LinkedIn</span>
+                    <span>LinkedIn</span>
                 </a>
                 <a href="https://www.instagram.com/krissssshnaverrrrrma/" target="_blank" title="Instagram">
                     <i class="fa-brands fa-square-instagram"></i><span>Instagram</span>
                 </a>
                 <a href="https://www.facebook.com/krissssshnaverrrrrma" target="_blank" title="Facebook">
-                   <i class="fa-brands fa-square-facebook"></i> <span>Facebook</span>
+                    <i class="fa-brands fa-square-facebook"></i> <span>Facebook</span>
                 </a>
             </div>
         </div>
@@ -65,4 +71,5 @@
     <script src="{{ url_for('static', filename='script.js') }}"></script>
     {% endblock %}
 </body>
+
 </html>
