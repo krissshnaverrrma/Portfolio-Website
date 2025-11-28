@@ -79,7 +79,13 @@ To run this project locally for testing:
 The application will be available at `http://127.0.0.1:5000/`.
 
 ---
-
-## 🤝 Connect with Me
-
-I am always open to discussing new opportunities, collaborations, and challenging technical problems.
+## 🌐 Usage
+Access the running application in your browser at:
+**https://portfolio-website-roan-mu-42.vercel.app/**
+---
+## 🙋 Contact
+For questions or feedback, please reach out to:
+* **Developer:** Krishna Verma
+* **GitHub:** [https://github.com/krissshnaverrrma]
+* **Linkedin** [https://www.linkedin.com/in/krishna-verma-43aa85315/]
+* **Email:** [krishnav24-cs@sanskar.org]
